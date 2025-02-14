@@ -1,1 +1,26 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonkeyTulz - Tools</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>MonkeyTulz</h1>
+    </nav>
+    <main>
+        <section id="tools">
+            <h2>Available Tools</h2>
+            <div class="tool" onclick="useTool('api-generator')">API Generator</div>
+            <div class="tool" onclick="useTool('another-tool')">Another Tool</div>
+        </section>
+    </main>
+    <script>
+        function useTool(toolName) {
+            alert(`Using ${toolName}`);
+        }
+    </script>
+</body>
+</html>
